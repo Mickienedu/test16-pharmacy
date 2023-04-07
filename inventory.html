@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="fontawesome-free-6.3.0-web/js/all.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="book-container">
+    <div class="menu">
+        <a href="index.html"><img src="img/download.png" class="img-logo" alt=""></a>
+        <h2 id="logo"><span class="a" style="color: goldenrod;">A</span>dmin</h2>
+        <ul class="ul">
+            <li><a href="index.html"><i class="fas fa-qrcode"></i> Dashboard</a></li>
+            <li><a href="book.html"><i class="fas fa-list-alt"></i> Booking</a></li>
+            </ul>
+            <select name="option" id="dropdown" onchange="location = this.value">
+               <option value="#">Inventory</option>
+               <option value="inventory.html">Stock</option>
+               <option value="stock">Out of Stock</option>
+               <option value="expired">Expired Products</option>
+               <option value="booking">Total Booking</option>
+               <option value="appoint">Discharged Patients</option>
+               <option value="sales">Sales Report</option>
+            </select>
+            <ul class="ul">
+            <li><a href="#"><i class="fas fa-users"></i> Patients</a></li>
+            </ul>
+            <select name="option" id="dropdown" onchange="location = this.value">
+                <option value="medicine">Medicine</option>
+                <option value="paracetamol">Paracetamol</option>
+                <option value="paracetamol">Fragil</option>
+                <option value="paracetamol">Condoms</option>
+                <option value="paracetamol">Blue ice</option>
+                <option value="paracetamol">Condoms</option>
+                <option value="paracetamol">Condoms</option>
+                <option value="paracetamol">Condoms</option>
+            </select>
+            <ul class="ul">
+            <li><a href="#"><i class="fas fa-shopping-cart"></i> Purchase</a></li>
+
+            <!-- <li><a href="#"><i class="fas fa-chart-bar"></i> Stock</a></li> -->
+            <li><a href="#"><i class="fas fa-file-invoice"></i> Invoice</a></li>
+            <li><a href="register.html"><i class="fas fa-file-invoice"></i> Register New Patient</a></li>
+
+            <li><a href="#"><i class="fas fa-users-cog"></i> Supplier</a></li>
+            <!-- <li><a href="#"><i class="fas fa-book"></i> Report</a></li> -->
+            <li><a href="#"><i class="fas fa-search"></i> Search</a></li>
+        </ul>
+    </div>
+    <!-- THE INVENTORY PAGE -->
+        <div class="tr1">
+           <nav>
+            <h2 id="week">WEEKLY REPORT</h2>
+           </nav>
+            <table>
+             
+          <!--here are the caption-->
+          <!--first is Table Role <tr>, then Table Data <td>-->
+            
+          <tr class="tr2">
+            <th>Name</th>
+    
+            <th>Stock</th>
+    
+            <th>Sold</th>
+            <th>Balance</th>
+          </tr>
+        
+            <tr>
+              <td>1. Paracetamol</td>
+              <td> 1000</td>
+              <td> 600</td>
+              <td> 400</td>
+            
+          </tr>
+            <tr>
+              <td>1. Paracetamol</td>
+              <td> 1000</td>
+              <td> 600</td>
+              <td> 400</td>
+            
+          </tr>
+            <tr>
+              <td>1. Paracetamol</td>
+              <td> 1000</td>
+              <td> 600</td>
+              <td> 400</td>
+            
+          </tr>
+            <tr>
+              <td>1. Paracetamol</td>
+              <td> 1000</td>
+              <td> 600</td>
+              <td> 400</td>
+            
+          </tr>
+            <tr>
+              <td>1. Paracetamol</td>
+              <td> 1000</td>
+              <td> 600</td>
+              <td> 400</td>
+            
+          </tr>
+            <tr>
+              <td>1. Paracetamol</td>
+              <td> 1000</td>
+              <td> 600</td>
+              <td> 400</td>
+            
+          </tr>
+            <tr>
+              <td>1. Paracetamol</td>
+              <td> 1000</td>
+              <td> 600</td>
+              <td> 400</td>
+            
+          </tr>
+            <tr>
+              <td>1. Paracetamol</td>
+              <td> 1000</td>
+              <td> 600</td>
+              <td> 400</td>
+            
+          </tr>
+          
+          <!-- <p>
+            <td>Pawpaw</td>
+            <td>Watermelon</td>
+            <td>Avocado</td>
+          </p> -->
+        </table>
+      </div>
+    </div>
+</body>
+</html>

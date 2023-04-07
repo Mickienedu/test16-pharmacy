@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="fontawesome-free-6.3.0-web/js/all.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="menu">
+            <a href="index.html"><img src="img/download.png" class="img-logo" alt=""></a>
+            <h2 id="logo"><span class="a" style="color: goldenrod;">A</span>dmin</h2>
+            <ul class="ul">
+                <li><a href="#"><i class="fas fa-qrcode"></i> Dashboard</a></li>
+                <li><a href="book.html"><i class="fas fa-list-alt"></i> Booking</a></li>
+                </ul>
+                <select name="option" id="dropdown" onchange="location = this.value">
+                   <option value="#">Inventory</option>
+                   <option value="inventory.html">Stock</option>
+                   <option value="stock">Out of Stock</option>
+                   <option value="expired">Expired Products</option>
+                   <option value="booking">Purchase</option>
+                   <option value="appoint">Invoice</option>
+                   <option value="sales">Sales Report</option>
+                </select>
+                <ul class="ul">
+                <li><a href="#"><i class="fas fa-users"></i> Patients</a></li>
+                </ul>
+                <select name="option" id="dropdown" onchange="location = this.value">
+                    <option value="medicine">Medicine</option>
+                    <option value="paracetamol">Paracetamol</option>
+                    <option value="paracetamol">Fragil</option>
+                    <option value="paracetamol">Condoms</option>
+                    <option value="paracetamol">Blue ice</option>
+                    <option value="paracetamol">Condoms</option>
+                    <option value="paracetamol">Condoms</option>
+                    <option value="paracetamol">Condoms</option>
+                </select>
+                <ul class="ul">
+                <li><a href="#"><i class="fas fa-shopping-cart"></i> Total Booking</a></li>
+
+                <!-- <li><a href="#"><i class="fas fa-chart-bar"></i> Stock</a></li> -->
+                <li><a href="#"><i class="fas fa-file-invoice"></i> Discharged Patients</a></li>
+                <li><a href="register.html"><i class="fas fa-file-invoice"></i> Register New Patient</a></li>
+                <li><a href="#"><i class="fas fa-users-cog"></i> Supplier</a></li>
+                <!-- <li><a href="#"><i class="fas fa-book"></i> Report</a></li> -->
+                <li><a href="#"><i class="fas fa-search"></i> Search</a></li>
+            </ul>
+        </div>
+        <div class="body">
+            <!-- <h2>sidebar using html and css</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                 Eligendi accusamus soluta quis quod reiciendis
+                voluptatibus 
+                 dolor delectus sequi quam, minima labore, 
+                  saepe omnis eius nemo ab vero illum! Eaque,
+                aliquid.</p> -->
+            <div class="body1">
+                <div class="nav">
+                    <h1>Dashboard</h1>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-home"
+                                    style="width: 60; height: 30px; color: rgba(23, 23, 49, 0.823);"></i></a> Home</li>
+                    </ul>
+                </div>
+                <div class="setting">
+                    <i class="fas fa-gear"
+                        style="width: 80; height: 50px; color: rgba(23, 23, 49, 0.823); margin-top: 20px; cursor: pointer;" ></i>
+                </div>
+            </div>
+            <hr>
+            <!-- the main body starts here -->
+            <div class="body2">
+                <div class="main-nav">
+                    <div class="nav1-container">
+                        <div class="nav1">
+                            <h2>32 <i class="fas fa-caret-up"></i></h2>
+                            <h5>Total Patients</h5>
+                        </div>
+                        <div class="nav1">
+                            <h2>24 <i class="fas fa-caret-up"></i></h2>
+                            <h5>Total Cleared Patients</h5>
+                        </div>
+                        <div class="nav1">
+                            <h2>48 <i class="fas fa-caret-up"></i></h2>
+                            <h5>Total Appointment</h5>
+                        </div>
+                    </div>
+                    <div class="nav1-container1">
+                        <div class="nav1">
+                            <h2>27 <i class="fas fa-caret-up"></i></h2>
+                            <h5>Past Appointment</h5>
+                        </div>
+                        <div class="nav1">
+                            <h2>10 <i class="fas fa-caret-up"></i></h2>
+                            <h5>Pending Appointment</h5>
+                        </div>
+                        <div class="nav1">
+                            <h2>29 <i class="fas fa-caret-up"></i></h2>
+                            <h5>Total Invoice</h5>
+                        </div>
+                    </div>
+
+
+                    <!-- <button id="btn">Click me</button> -->
+                </div>
+                <div class="report">
+                    <h2>Weekly Report</h2>
+                    <div class="second-report">
+                    <nav class="total-sale">
+                        <nav class="total">
+                            <h4>Total Income</h4>
+                        </nav>
+                        <nav class="amt">
+                            <h3 class="sales">NGN. 900,656</h3>
+                            
+                        </nav>
+                    </nav>
+                    
+                    <nav class="purchase">
+                        <nav class="total">
+                            <h4>Total Loss</h4>
+                        </nav>
+                        <nav class="amt">
+                            <h3 class="amnt-purchase">NGN. 30,000</h3>
+                        </nav>
+                    </nav>
+                    </div>
+                </div>
+
+            </div>
+            <hr>
+            <!-- THE SECOND PHASE OF THE BOXES -->
+            <div class="body3">
+                <h1 class="more" style="color: rgb(53, 26, 78); text-decoration: underline;">More</h1>
+                <div class="create">
+                    <div class="main-create">
+                        <i class="fas fa-file-invoice" style="width: 50px; height: 40px;"></i>
+                        <h2> New Invoice</h2>
+                    </div>
+                    <div class="main-create">
+                        <i class="fas fa-users" style="width: 50px; height: 40px;"></i>
+                        <h2><a href="register.html" id="new-patient">New Patient</a></h2>
+                    </div>
+                    <div class="main-create">
+                        <i class="fas fa-file-medical" style="width: 50px; height: 40px;"></i>
+                        <h2>New Medicine</h2>
+                    </div>
+                    <div class="main-create">
+                        <i class="fas fa-users-cog" style="width: 50px; height: 40px;"></i>
+                        <h2> New Supplier</h2>
+                    </div>
+                </div>
+                <div class="create1">
+                    <div class="main-create">
+                        <i class="fas fa-shopping-cart" style="width: 50px; height: 40px;"></i>
+                        <h2>Create New Purchase</h2>
+                    </div>
+                    <div class="main-create">
+                        <i class="fas fa-book" style="width: 50px; height: 40px;"></i>
+                        <h2>Sales Report</h2>
+                    </div>
+                    <div class="main-create">
+                        <i class="fas fa-chart-bar" style="width: 50px; height: 40px;"></i>
+                        <h2>Create New Stock</h2>
+                    </div>
+                    <div class="main-create">
+                        <i class="fas fa-list-alt" style="width: 50px; height: 40px;"></i>
+                        <h2>Make Order</h2>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="fontawesome-free-6.3.0-web/js/all.min.js"></script>
+
+    <!-- <script src="app.js"></script> -->
+</body>
+
+</html>

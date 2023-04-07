@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="fontawesome-free-6.3.0-web/js/all.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- THE REGISTRATION PAGE STARTS HERE -->
+    <div class="book-container">
+        <div class="menu">
+            <a href="index.html"><img src="img/download.png" class="img-logo" alt=""></a>
+            <h2 id="logo"><span class="a" style="color: goldenrod;">A</span>dmin</h2>
+            <ul class="ul">
+                <li><a href="index.html"><i class="fas fa-qrcode"></i> Dashboard</a></li>
+                <li><a href="book.html"><i class="fas fa-list-alt"></i> Booking</a></li>
+                </ul>
+                <select name="option" id="dropdown" onchange="location = this.value">
+                   <option value="#">Inventory</option>
+                   <option value="stocks">Stock</option>
+                   <option value="stock">Out of Stock</option>
+                   <option value="expired">Expired Products</option>
+                   <option value="booking">Total Booking</option>
+                   <option value="appoint">Discharged Patients</option>
+                   <option value="sales">Sales Report</option>
+                </select>
+                <ul class="ul">
+                <li><a href="#"><i class="fas fa-users"></i> Patients</a></li>
+                </ul>
+                <select name="option" id="dropdown" onchange="location = this.value">
+                    <option value="medicine">Medicine</option>
+                    <option value="paracetamol">Paracetamol</option>
+                    <option value="paracetamol">Fragil</option>
+                    <option value="paracetamol">Condoms</option>
+                    <option value="paracetamol">Blue ice</option>
+                    <option value="paracetamol">Condoms</option>
+                    <option value="paracetamol">Condoms</option>
+                    <option value="paracetamol">Condoms</option>
+                </select>
+                <ul class="ul">
+                <li><a href="#"><i class="fas fa-shopping-cart"></i> Purchase</a></li>
+    
+                <!-- <li><a href="#"><i class="fas fa-chart-bar"></i> Stock</a></li> -->
+                <li><a href="#"><i class="fas fa-file-invoice"></i> Invoice</a></li>
+                <li><a href="register.html"><i class="fas fa-file-invoice"></i> Register New Patient</a></li>
+
+                <li><a href="#"><i class="fas fa-users-cog"></i> Supplier</a></li>
+                <!-- <li><a href="#"><i class="fas fa-book"></i> Report</a></li> -->
+                <li><a href="#"><i class="fas fa-search"></i> Search</a></li>
+            </ul>
+        </div>
+        <!-- INPUT FORM PAGE -->
+    <div class="register">
+        <div class="input-name-email">
+            <form action="input" class="input-container">
+                <div class="first">
+             <label for="name">Full Name:*</label>
+             <input class="input-space"  type="name" name="fname" placeholder="FullName">
+             </div>
+             <div class="first">
+              <label for="email">Email:*</label>
+                <input class="input-space"  type="email" name="emailAddress" placeholder="Your Email">
+                </div>
+                <div class="first">
+                <label for="date-of-birth">Date of Birth:*</label>
+                <input class="input-space"  type="date" name="date-of-birth">
+                </div>
+                <div class="first" id="resident">
+                <label for="address">Address:*</label>
+                <input class="input-space" type="text" placeholder="Address">
+                </div>
+                <div class="first">
+                <label for="address">Phone Num:*</label>
+                <input class="input-space" type="phone" placeholder="PhoneNumber">
+                </div>
+                <div class="first">
+                <label for="address">Complaint:*</label>
+                <input class="input-space" type="text" placeholder="Complaint">
+                </div>
+                <div class="first" id="gender">
+                <label for="gender">Gender:*</label>
+                <input class="gender" type="radio" value="male">
+                <label for="male">Male</label>
+                <input class="gender" type="radio" value="female">
+                <label for="female">Female</label>
+                </div>
+                <div class="first" id="btn">
+                    <button class="btn" type="submit" onclick="input">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
